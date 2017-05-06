@@ -14,8 +14,8 @@ Gem::Specification.new do |gem|
   # should change
   gem.homepage      = "http://github.com/bchatelard/scaleway-ruby"
 
-  gem.add_dependency "faraday", "~> 0.9"
-  gem.add_dependency "faraday_middleware", "~> 0.9"
+  gem.add_dependency "faraday", "~> 0.9.1"
+  gem.add_dependency "faraday_middleware", "~> 0.9.1"
   gem.add_dependency "recursive-open-struct", "~> 1.0"
 
   gem.add_development_dependency "rake", "~> 10.1"
